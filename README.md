@@ -1,3 +1,22 @@
+<style>
+figure {
+  page-break-inside: avoid;
+  text-align: center;
+  margin: 2em auto;
+}
+figure figcaption {
+  font-weight: bold;
+  font-size: 1.3em;
+  margin-bottom: 0.4em;
+}
+img {
+  max-width: 80%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+</style>
+
 # 1. Hoofdcomponentenanalyse
 
 Hoofdcomponentenanalyse (PCA) is een statistische techniek die wordt gebruikt voor dimensionale reductie. Dit is een methode  waarmee de dimensies of variabelen van een dataset worden verminderd, terwijl zo veel mogelijk relevante informatie behouden blijft. Het doel is om de complexiteit van gegevens te verminderen door de dataset om te zetten in een lagere-dimensionale ruimte, terwijl belangrijke patronen en relaties in de gegevens behouden blijven.
@@ -17,57 +36,132 @@ Tot slot heb ik de correlatie tussen de antwoorden van de partijen berekend. Hoe
 
 # Kieskompas en Stemwijzer gecombineerd
 
-### Scree plot (Totaal verklaarde variantie per component)
-![combined-scree](images/combined/scree.png)
-## Pca Scatter plots
-### 1d
-![combined-pca-1d](images/combined/pca-scatter-1d.png)
-### 2d
-![combined-pca-2d](images/combined/pca-scatter-2d.png)
-### 3d
-![combined-pca-3d](images/combined/pca-scatter-3d.png)
-## Loadings componenten
-### Component 1
-![combined-loadings-1](images/combined/loadings-graph-pca1.png)
-### Component 2
-![combined-loadings-2](images/combined/loadings-graph-pca2.png)
-## Correlatie tabel
-![combined-corr](images/combined/corr-graph.png)
+<figure>
+  <img src="images/combined/scree.png"
+       alt="Scree plot gecombineerde data">
+  <figcaption>Scree plot — verklaarde variantie per component.</figcaption>
+</figure>
+
+<figure>
+  <img src="images/combined/pca-scatter-1d.png"
+       alt="PCA 1D - gecombineerde data">
+  <figcaption>PCA 1D - gecombineerde data</figcaption>
+</figure>
+
+<figure>
+    <img src="images/combined/pca-scatter-2d.png"
+         alt="PCA 2D - gecombineerde data">
+    <figcaption>PCA 2D - gecombineerde data</figcaption>
+</figure>
+
+<figure>
+    <img src="images/combined/pca-scatter-3d.png"
+         alt="PCA 3D - gecombineerde data">
+    <figcaption>PCA 3D - gecombineerde data</figcaption>
+</figure>
+
+<figure>
+    <img src="images/combined/loadings-graph-pca1.png"
+         alt="Loadings component 1 - gecombineerde data">
+    <figcaption>Loadings component 1 - gecombineerde data</figcaption>
+</figure>
+
+<figure>
+    <img src="images/combined/loadings-graph-pca2.png"
+         alt="Loadings component 2 - gecombineerde data">
+    <figcaption>Loadings component 2 - gecombineerde data</figcaption>
+</figure>
+
+<figure>
+    <img src="images/combined/corr-graph.png"
+         alt="Correlatie tabel - gecombineerde data">
+    <figcaption>Correlatie tabel - gecombineerde data</figcaption>
+</figure>
 
 # Kieskompas
 
-### Scree plot (Totaal verklaarde variantie per component)
-![kieskompas-scree](images/kieskompas/scree.png)
-## Pca Scatter plots
-### 1d (Kieskompas)
-![kieskompas-pca-1d](images/kieskompas/pca-scatter-1d.png)
-### 2d (Kieskompas)
-![kieskompas-pca-2d](images/kieskompas/pca-scatter-2d.png)
-### 3d (Kieskompas)
-![kieskompas-pca-3d](images/kieskompas/pca-scatter-3d.png)
-## Loadings componenten
-### Component 1 (Kieskompas)
-![kieskompas-loadings-1](images/kieskompas/loadings-graph-pca1.png)
-### Component 2 (Kieskompas)
-![kieskompas-loadings-2](images/kieskompas/loadings-graph-pca2.png)
-## Correlatie tabel (Kieskompas)
-![kieskompas-corr](images/kieskompas/corr-graph.png)
+<figure>
+  <img src="images/kieskompas/scree.png"
+       alt="Scree plot kieskompas">
+  <figcaption>Scree plot — verklaarde variantie per component.</figcaption>
+</figure>
+
+<figure>
+  <img src="images/kieskompas/pca-scatter-1d.png"
+       alt="PCA 1D - kieskompas">
+  <figcaption>PCA 1D - kieskompas</figcaption>
+</figure>
+
+<figure>
+    <img src="images/kieskompas/pca-scatter-2d.png"
+         alt="PCA 2D - kieskompas">
+    <figcaption>PCA 2D - kieskompas</figcaption>
+</figure>
+
+<figure>
+    <img src="images/kieskompas/pca-scatter-3d.png"
+         alt="PCA 3D - kieskompas">
+    <figcaption>PCA 3D - kieskompas</figcaption>
+</figure>
+
+<figure>
+    <img src="images/kieskompas/loadings-graph-pca1.png"
+         alt="Loadings component 1 - kieskompas">
+    <figcaption>Loadings component 1 - kieskompas</figcaption>
+</figure>
+
+<figure>
+    <img src="images/kieskompas/loadings-graph-pca2.png"
+         alt="Loadings component 2 - kieskompas">
+    <figcaption>Loadings component 2 - kieskompas</figcaption>
+</figure>
+
+<figure>
+    <img src="images/kieskompas/corr-graph.png"
+         alt="Correlatie tabel - kieskompas">
+    <figcaption>Correlatie tabel - kieskompas</figcaption>
+</figure>
 
 # Stemwijzer
 
-### Scree plot (Totaal verklaarde variantie per component)
-![stemwijzer-scree](images/stemwijzer/scree.png)
-## Pca Scatter plots
-### 1d (Stemwijzer)
-![stemwijzer-pca-1d](images/stemwijzer/pca-scatter-1d.png)
-### 2d (Stemwijzer)
-![stemwijzer-pca-2d](images/stemwijzer/pca-scatter-2d.png)
-### 3d (Stemwijzer)
-![stemwijzer-pca-3d](images/stemwijzer/pca-scatter-3d.png)
-## Loadings componenten
-### Component 1 (Stemwijzer)
-![stemwijzer-loadings-1](images/stemwijzer/loadings-graph-pca1.png)
-### Component 2 (Stemwijzer)
-![stemwijzer-loadings-2](images/stemwijzer/loadings-graph-pca2.png)
-## Correlatie tabel (Stemwijzer)
-![stemwijzer-corr](images/stemwijzer/corr-graph.png)
+<figure>
+  <img src="images/stemwijzer/scree.png"
+       alt="Scree plot stemwijzer">
+  <figcaption>Scree plot — verklaarde variantie per component.</figcaption>
+</figure>
+
+<figure>
+  <img src="images/stemwijzer/pca-scatter-1d.png"
+       alt="PCA 1D - stemwijzer">
+  <figcaption>PCA 1D - stemwijzer</figcaption>
+</figure>
+
+<figure>
+    <img src="images/stemwijzer/pca-scatter-2d.png"
+         alt="PCA 2D - stemwijzer">
+    <figcaption>PCA 2D - stemwijzer</figcaption>
+</figure>
+
+<figure>
+    <img src="images/stemwijzer/pca-scatter-3d.png"
+         alt="PCA 3D - stemwijzer">
+    <figcaption>PCA 3D - stemwijzer</figcaption>
+</figure>
+
+<figure>
+    <img src="images/stemwijzer/loadings-graph-pca1.png"
+         alt="Loadings component 1 - stemwijzer">
+    <figcaption>Loadings component 1 - stemwijzer</figcaption>
+</figure>
+
+<figure>
+    <img src="images/stemwijzer/loadings-graph-pca2.png"
+         alt="Loadings component 2 - stemwijzer">
+    <figcaption>Loadings component 2 - stemwijzer</figcaption>
+</figure>
+
+<figure>
+    <img src="images/stemwijzer/corr-graph.png"
+         alt="Correlatie tabel - stemwijzer">
+    <figcaption>Correlatie tabel - stemwijzer</figcaption>
+</figure>
