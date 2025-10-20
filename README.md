@@ -1,22 +1,3 @@
-<style>
-figure {
-  page-break-inside: avoid;
-  text-align: center;
-  margin: 2em auto;
-}
-figure figcaption {
-  font-weight: bold;
-  font-size: 1.3em;
-  margin-bottom: 0.4em;
-}
-img {
-  max-width: 80%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
-</style>
-
 # 1. Hoofdcomponentenanalyse
 
 Hoofdcomponentenanalyse (PCA) is een statistische techniek die wordt gebruikt voor dimensionale reductie. Dit is een methode  waarmee de dimensies of variabelen van een dataset worden verminderd, terwijl zo veel mogelijk relevante informatie behouden blijft. Het doel is om de complexiteit van gegevens te verminderen door de dataset om te zetten in een lagere-dimensionale ruimte, terwijl belangrijke patronen en relaties in de gegevens behouden blijven.
@@ -165,3 +146,23 @@ Tot slot heb ik de correlatie tussen de antwoorden van de partijen berekend. Hoe
          alt="Correlatie tabel - stemwijzer">
     <figcaption>Correlatie tabel - stemwijzer</figcaption>
 </figure>
+
+
+<style>
+figure {
+  page-break-inside: avoid;
+  text-align: center;
+  margin: 2em auto;
+}
+figure figcaption {
+  font-weight: bold;
+  font-size: 1.3em;
+  margin-bottom: 0.4em;
+}
+img {
+  max-width: 80%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+</style>
